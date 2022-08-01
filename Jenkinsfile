@@ -24,6 +24,8 @@ pipeline {
 
     }
         stage('cat README') {
+          steps {
+            echo "hello arun"
 
       when {
 
